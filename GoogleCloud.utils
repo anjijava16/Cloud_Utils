@@ -1,0 +1,103 @@
+Projects First Level of Resourcess Hierarchy and they contain other low -level resources like Cloud Storage buckets and Compute Engine Instance
+Project Name(mmtechsoft)
+Google Cloud Services are accessible in the Left hand Navigation Menu 
+
+See the High_level overview of any project
+Home Dashboard
+Activity
+
+IAM & Admin
+
+Google Cloud Identity and Access Managemenet (IAM)
+
+Cloud SHell: Active Google Cloud Shell 
+
+gcloud help
+gcloud compute instance list
+gcloud ml-engine jobs list
+
+compute 
+gcloud --version
+https://cloud.google.com/shell/
+https://cloud.google.com/docs/
+
+
+http://gcp.solutions/
+
+Project INfo 
+	Projectnmame
+        ProjectID (DEV/Prod/ environement)
+        ProjectNumber
+
+admin.google.com/ac/users
+
+===========================
+Creating Users and Assigning Roles::==>
+IAM : -->
+An essential skill of every cloud engineer is the ability to manage users, roles, and permissions. In this lesson, we'll learn how to add a new user to G Suite, and then add that user to Cloud IAM. We'll also cover how to set roles for users.
+IAM & Admin --> IAM --ADD 
+
+==================================
+Enabling APIs::==?
+APIS --> 
+The entire Google Cloud Platform is just a set of REST APIs that we can interact with using different interfaces. By default, most of these APIs are disabled. Enabling 
+an API is easy to do, and in this lesson, you'll learn how.
+Enable API;s Here :
+==============================================================
+StackDriver :: ==>
+Stackdriver is Google's monitoring and logging service, and if you work on Google Cloud, it's something you'll need to learn. In this lesson, we'll talk about how to create a Stackdriver account that can monitor one or more projects.
+  ==> Uptime Monitoring
+  ==> Performance metrics
+  ==> Alerting
+  ==> AwS montioring
+StackDriver: 
+   Monitoring
+   Debug
+   Trace
+   Logging
+   Error Reporting
+   Profiler
+
+
+Stackdriver Onlye Free 7 Days after it will disconnected 
+Stackdriver Monitoring metrics accepts three types of metrics—Gauge, Delta, and Cumulative—with six value types: Boolean, Integer, Floating-point, String, Money, and Distribution.
+
+
+==============================================================
+  ---> Resources:
+         Compute Engine
+         Gloud Storage
+         AppEngine
+Project -->Resources 
+Company Use One Project or many projects
+HR Project 
+Project Web APP,
+Data Analaytics Project
+
+IAM : WHo can do what with Which resource
+Gmail,Google Groups,Service Account, GSuite and Cloud Identify
+
+Google Cloud Directory Sync:
+i) Primiteive Roles
+  Project Level
+   Owner
+   Editor
+   Viewer
+ii)Predefiend Roles
+    Resource Level
+    BigQuery Admin
+    BigQuery Data Owner
+    BigQuery Data Editor
+    BigQuery Data Viewer
+iii)Custom Roles(rESOURCE lEVEL)
+    BigQuery Admin
+    Copy the Predefined role 
+3) Managing API'S:==>
+  Cloud Console Shell
+  Cloud SDK 
+Note: Some API's enable quick and some it will take time
+4) Stack Driver: (Multiple Different Services)
+  Monitiong,Logging,Debugging,Error Aggergation,More....
+If you monitor one project host
+If you monitor mutliple project Use StackDriver
+
